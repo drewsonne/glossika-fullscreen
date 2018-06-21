@@ -1,0 +1,42 @@
+#fullscreen-button {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#tutorialTargetContainer.fullScreen {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    min-width: 1000px;
+    max-width: 2000px;
+    margin: 0 auto;
+
+    background-color: black;
+
+    padding: 10%;
+
+}
+
+.fullScreen > #languages {
+    color: white;
+}
+
+#header.fullScreen > div {
+    color: white !important;
+}
+
+#feedback.fullScreen > * {
+    color: white !important;
+}
+
+.language.fullScreen {
+    color: black !important;
+}
+
+.fullScreen.language, .fullScreen.language > div > div {
+    padding: 2rem 5rem 5rem 5rem !important;
+    background-color: black !important;
+    border-color: white !important;
+    color: white !important;
+    font-size: 3rem !important;
+}

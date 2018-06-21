@@ -1,0 +1,28 @@
+{
+  "name": "Glossika Focus",
+  "version": "1.0",
+  "description": "Adds a button to put glossika sessions in fullscreen",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ai.glossika.com/app/session*"
+      ],
+      "js": [
+        "jquery-3.3.1.min.js",
+        "jquery.fullscreen-min.js",
+        "fullscreen-glossika.js"
+      ],
+      "css": [
+        "full-screen.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "jquery-3.3.1.min.js",
+    "jquery.fullscreen-min.js",
+    "fullscreen-glossika.js",
+    "full-screen-white.png",
+    "full-screen-black.png"
+  ],
+  "manifest_version": 2
+}
